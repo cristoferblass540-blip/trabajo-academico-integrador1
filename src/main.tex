@@ -1,0 +1,164 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- Paquetes Básicos ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+% --- Configuración de Títulos ---
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+% --- Portada ---
+\begin{titlepage}
+    \centering
+    \includegraphics[width=0.4\textwidth]{logo_unan.png}\\[1cm] % Reemplazar con tu imagen
+    {\scshape\LARGE Universidad Nacional Autónoma de Nicaragua \par}
+    {\scshape\Large CUR-Carazo \par}
+    \vspace{1cm}
+    {\large Facultad de Ingeniería Tecnología y Salud \par}
+    {\large Ingeniería en Sistemas \par}
+    \vspace{1.5cm}
+    {\huge\bfseries Propuesta de diseño conceptual de un sistema de gestión de turnos en centros de salud \par}
+    \vspace{0.5cm}
+    {\large Análisis de la problemática, modelado conceptual y evaluación del prototipo \par}
+    \vspace{1.5cm}
+    
+    \textbf{Trabajo académico de las asignaturas:} \\
+    Integrador I, Diseño de Interfaces de Usuario e \\ Introducción a la programación \par
+    \vspace{1cm}
+    
+    \textbf{Autores:} \\
+    Emily Nazareth Murillo Montenegro \\
+    Cristofer Francisco Blass Espinoza \\
+    Abel Ezequiel Cerda Martínez \\
+    Pedro Luis Rodríguez López \par
+    \vspace{1cm}
+    
+    \textbf{Tutor:} \\
+    Msc. Martha Rodríguez \par
+    \vfill
+    {\large Carazo, Nicaragua \\ 2026 \par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+% --- Introducción ---
+\section{Introducción}
+En la actualidad, muchos centros de salud de San Marcos Carazo enfrentan dificultades en la organización de la atención[cite: 30]. El manejo manual de turnos genera largas filas y falta de priorización[cite: 30, 31]. Se propone un Sistema de Gestión de Turnos para automatizar el registro y la asignación según niveles de prioridad[cite: 32, 33].
+
+% --- Justificación ---
+\section{Justificación}
+El sistema surge para mejorar la eficiencia médica[cite: 35]. El proceso manual actual genera estrés laboral y disminuye la calidad del servicio[cite: 39]. La automatización permitirá una atención justa para emergencias, adultos mayores y mujeres embarazadas[cite: 40, 41].
+
+% --- Objetivos ---
+\section{Objetivos}
+\subsection{Objetivo General}
+Desarrollar un prototipo funcional de un sistema de gestión de turnos con asignaciones automáticas para reducir tiempos de espera[cite: 43, 44, 46].
+
+\subsection{Objetivos Específicos}
+\begin{itemize}
+    \item Crear un módulo para que el personal de salud gestione la lista de pacientes[cite: 49].
+    \item Diseñar un registro de pacientes con captura de datos y condición médica[cite: 50].
+    \item Clasificar automáticamente a los pacientes según prioridad (emergencia, media, normal)[cite: 51].
+    \item Implementar el cálculo de tiempo estimado de atención[cite: 52].
+\end{itemize}
+
+% --- Desarrollo del Proyecto ---
+\section{Desarrollo del Proyecto}
+\subsection{Conceptualización}
+Una herramienta diseñada para administrar la atención mediante la optimización del tiempo y la equidad en el servicio[cite: 56, 57].
+
+\subsection{Análisis del Problema}
+La ausencia de sistemas automatizados provoca:
+\begin{itemize}
+    \item Desorden en la atención[cite: 64].
+    \item Falta de priorización de casos urgentes[cite: 65].
+    \item Sobrecarga operativa para el personal médico[cite: 67, 68].
+\end{itemize}
+
+% --- Diagnóstico y Árbol del Problema ---
+\section{Diagnóstico del Problema}
+\subsection{Árbol del Problema}
+\textbf{Problema Central:} Deficiencias en la gestión de turnos[cite: 78].
+\begin{itemize}
+    \item \textbf{Causas:} Turnos manuales y demora en la atención[cite: 80, 82].
+    \item \textbf{Consecuencias:} Pacientes molestos y errores en turnos[cite: 85, 86].
+\end{itemize}
+
+% --- Mapa de Empatía ---
+\section{Mapa de Empatía}
+\begin{description}
+    \item[¿Qué dice?] "Llevo mucho tiempo esperando", "Esto está desorganizado"[cite: 93, 96].
+    \item[¿Qué piensa?] Que el sistema es injusto y su tiempo no se respeta[cite: 98, 100].
+    \item[¿Qué siente?] Frustración, impaciencia y estrés[cite: 113, 115].
+\end{description}
+
+% --- Planteamiento del Problema ---
+\section{Planteamiento del Problema}
+La dependencia de métodos manuales y papel ralentiza la recepción de usuarios y propicia errores humanos[cite: 128, 129]. Esto vulnera la equidad del servicio al no clasificar objetivamente las urgencias médicas[cite: 134].
+
+% --- Anexos ---
+\section{Anexos}
+\begin{figure}[h]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{diagrama_flujo.png}
+    \caption{Diagrama de flujo del sistema de gestión de turnos.}
+\end{figure}
+
+
+% --- Arquitectura y Diseño del Sistema ---
+\section{Arquitectura y Diseño del Sistema}
+La solución se basa en una arquitectura de gestión de flujos de trabajo en tiempo real. El sistema procesa la entrada del paciente, aplica un algoritmo de priorización y gestiona una cola dinámica que el personal médico puede manipular[cite: 58, 135].
+
+\subsection{Lógica de Priorización}
+El sistema implementa un motor de reglas basado en las siguientes categorías de prioridad:
+\begin{enumerate}
+    \item \textbf{Prioridad 1 (Emergencia):} Atención inmediata, interrumpe el flujo normal de turnos.
+    \item \textbf{Prioridad 2 (Alta Prioridad):} Atención preferente para adultos mayores y mujeres embarazadas.
+    \item \textbf{Prioridad 3 (Normal):} Atención por orden de llegada para consultas generales.
+\end{enumerate}
+
+% --- Modelado de Datos ---
+\section{Modelado de Datos}
+Para el funcionamiento del prototipo, se han identificado las siguientes entidades clave dentro de la base de datos[cite: 50, 52]:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Entidad} & \textbf{Atributos Principales} & \textbf{Descripción} \\ \hline
+Paciente & ID, Nombre, Condición Médica & Almacena los datos básicos y clínicos del usuario. \\ \hline
+Turno & Número, Hora Entrada, Prioridad & Gestiona el puesto en la fila y el tiempo estimado[cite: 52]. \\ \hline
+Personal & Usuario, Rol, Consultorio & Permite el acceso seguro al panel de gestión[cite: 49]. \\ \hline
+\end{tabular}
+\caption{Diccionario de datos básico del sistema.}
+\end{table}
+
+% --- Diseño de Interfaces de Usuario ---
+\section{Diseño de Interfaces de Usuario}
+El diseño se centra en la usabilidad tanto para el paciente como para el personal administrativo, buscando reducir la frustración identificada en el mapa de empatía[cite: 113, 127].
+
+\subsection{Módulo del Paciente (Kiosco)}
+Consiste en una interfaz táctil simplificada donde el usuario ingresa su nombre y selecciona su condición médica. El sistema genera un comprobante con el número de turno y el tiempo de espera calculado[cite: 50, 52].
+
+\subsection{Panel del Personal de Salud}
+Una interfaz de escritorio que permite visualizar la lista de espera ordenada automáticamente por prioridad. Incluye funciones para[cite: 49]:
+\begin{itemize}
+    \item Llamar al siguiente turno (activación del sistema de sonido y pantalla).
+    \item Marcar paciente como atendido.
+    \item Generar reportes de flujo y tiempos de espera.
+\end{itemize}
+
+% --- Evaluación del Prototipo ---
+\section{Evaluación del Prototipo y Reportes}
+El sistema genera datos estadísticos para la toma de decisiones, tales como la cantidad de pacientes atendidos, el tiempo promedio de espera por categoría y los tipos de consulta más frecuentes[cite: 42, 135].
+
+\end{document}
