@@ -1,21 +1,22 @@
-# Nombre del archivo principal sin extensión
 MAIN = main
-# Compilador
 LATEX = pdflatex
-# Carpeta de salida (opcional, para mantener limpia la raíz)
 FLAGS = -interaction=nonstopmode
+BUILD_DIR = ../build
 
-all: $(MAIN).pdf
+SECTIONS = $(wildcard sections/*.tex)
 
-$(MAIN).pdf: $(MAIN).tex src/sections/*.tex
-	$(LATEX) $(FLAGS) $(MAIN).tex
-	# Segunda pasada para el índice (Table of Contents)
-	$(LATEX) $(FLAGS) $(MAIN).tex
+all: $(BUILD_DIR)/$(MAIN).pdf
+
+$(BUILD_DIR)/$(MAIN).pdf: $(MAIN).tex $(SECTIONS)
+	mkdir -p $(BUILD_DIR)
+	$(LATEX) $(FLAGS) -output-directory=$(BUILD_DIR) $(MAIN).tex
+	$(LATEX) $(FLAGS) -output-directory=$(BUILD_DIR) $(MAIN).tex
+
+install:
+	@echo "Instalá una distribución LaTeX (MacTeX/TeX Live) y pandoc si querés reconvertir DOCX."
 
 clean:
-	rm -f *.aux *.log *.toc *.out *.pdf
-	rm -f src/sections/*.aux
+	rm -f $(BUILD_DIR)/*.aux $(BUILD_DIR)/*.log $(BUILD_DIR)/*.toc $(BUILD_DIR)/*.out $(BUILD_DIR)/*.pdf $(BUILD_DIR)/*.bbl $(BUILD_DIR)/*.bcf $(BUILD_DIR)/*.blg $(BUILD_DIR)/*.run.xml
 
-# Comando para compilar y abrir (Linux/WSL)
 run: all
-	xdg-open $(MAIN).pdf
+	open $(BUILD_DIR)/$(MAIN).pdf
