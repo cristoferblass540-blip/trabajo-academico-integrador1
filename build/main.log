@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  14 MAY 2026 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  14 MAY 2026 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,21 +1182,21 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 77.
+(hyperref)                removing `\\' on input line 82.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 77.
+(hyperref)                removing `\\' on input line 82.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 77.
+(hyperref)                removing `\\' on input line 82.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 85
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 90
 .
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1209,26 +1209,26 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1289,7 +1289,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 85.
+Package hyperref Info: Link coloring OFF on input line 90.
 
 (../build/main.out) (../build/main.out)
 \@outlinefile=\write5
@@ -1321,12 +1321,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 85.
-Package biblatex Info: Reference segment=0 on input line 85.
-<assets/img_001.png, id=67, 275.94pt x 147.168pt>
+Package biblatex Info: Reference section=0 on input line 90.
+Package biblatex Info: Reference segment=0 on input line 90.
+<assets/img_001.png, id=155, 275.94pt x 147.168pt>
 File: assets/img_001.png Graphic file (type png)
 <use assets/img_001.png>
-Package pdftex.def Info: assets/img_001.png  used on input line 94.
+Package pdftex.def Info: assets/img_001.png  used on input line 99.
 (pdftex.def)             Requested size: 71.13188pt x 37.93715pt.
 [1
 
@@ -1337,122 +1337,100 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 5.
+ 3.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 5.
+ 3.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 5.
+ 3.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 5.
+ 3.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.128 \newpage
-               [1
+l.25 ...pseudocódigo)}{10}{subsubsection.0.6.3.2}
+                                                  % [1
 
-] (./sections/03_introduccion.tex
-Cap\'{\i }tulo 1.
-) (./sections/04_justificacion.tex [2
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
-]
-Cap\'{\i }tulo 2.
-) (./sections/05_objetivo-general.tex [3
+ [2]
+(./sections/03_introduccion.tex) (./sections/04_justificacion.tex [3
 
-]
-Cap\'{\i }tulo 3.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 9.
-
-) (./sections/06_desarrollo-del-proyecto.tex [4
-
-]
-Cap\'{\i }tulo 4.
-) (./sections/07_conceptualizacion-y-analisis-del-problema.tex [5
-
-]
-Cap\'{\i }tulo 5.
+])
+(./sections/05_objetivo-general.tex [4])
+(./sections/06_desarrollo-del-proyecto.tex)
+(./sections/07_conceptualizacion-y-analisis-del-problema.tex [5])
+(./sections/08_diagnostico-del-problema.tex)
+(./sections/09_gestion-de-turnos-en-san-marcos.tex [6])
+(./sections/10_sintesis.tex) (./sections/11_mapa-de-empatia.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
+(hyperref)                than one, level fixed on input line 1.
 
-[6
-
-]) (./sections/08_diagnostico-del-problema.tex [7]
-Cap\'{\i }tulo 6.
-) (./sections/09_gestion-de-turnos-en-san-marcos.tex [8
-
-]
-Cap\'{\i }tulo 7.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 11.
-
-) (./sections/10_sintesis.tex [9
-
-]
-Cap\'{\i }tulo 8.
-) (./sections/11_mapa-de-empatia.tex [10
-
-]
-Cap\'{\i }tulo 9.
-[11
-
-]) (./sections/12_planteamiento-del-problema.tex [12]
-Cap\'{\i }tulo 10.
-<assets/img_002.jpeg, id=140, 1027.84pt x 1541.76pt>
+[7]) (./sections/12_planteamiento-del-problema.tex [8]) [9]
+(./sections/13_diseno-solucion-tecnologica.tex)
+(./sections/14_diseno-interfaz.tex)
+(./sections/15_conclusiones-recomendaciones.tex) (./sections/16_anexos.tex
+<assets/img_002.jpeg, id=238, 1027.84pt x 1541.76pt>
 File: assets/img_002.jpeg Graphic file (type jpg)
 <use assets/img_002.jpeg>
-Package pdftex.def Info: assets/img_002.jpeg  used on input line 13.
+Package pdftex.def Info: assets/img_002.jpeg  used on input line 5.
 (pdftex.def)             Requested size: 399.29494pt x 598.95497pt.
+
+[10
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<assets/img_003.jpeg, id=141, 1027.84pt x 1541.76pt>
+<assets/img_003.jpeg, id=243, 1027.84pt x 1541.76pt>
 File: assets/img_003.jpeg Graphic file (type jpg)
 <use assets/img_003.jpeg>
-Package pdftex.def Info: assets/img_003.jpeg  used on input line 18.
+Package pdftex.def Info: assets/img_003.jpeg  used on input line 11.
 (pdftex.def)             Requested size: 399.29494pt x 598.95497pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [13
+)
 
-] [14 <./assets/img_002.jpeg>] [15 <./assets/img_003.jpeg>]
+LaTeX Warning: Empty bibliography on input line 158.
+
+
+Overfull \vbox (320.71146pt too high) has occurred while \output is active []
+
+
+[11] [12 <./assets/img_002.jpeg>] [13 <./assets/img_003.jpeg>]
 (../build/main.aux
 LaTeX Info: Redefining \sptext on input line 8.
 LaTeX Info: Redefining \. on input line 8.
@@ -1463,25 +1441,25 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9D78FEA9C2D09311F35D4CFC0BCBBF4E;2203.
+(rerunfilecheck)             Checksum: A142C3C13160B651D35C0D9BE2843625;6403.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35009 strings out of 467525
- 677123 string characters out of 5418982
- 1599595 words of memory out of 5000000
- 63338 multiletter control sequences out of 15000+600000
+ 35093 strings out of 467525
+ 679415 string characters out of 5418982
+ 1602640 words of memory out of 5000000
+ 63391 multiletter control sequences out of 15000+600000
  651332 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,104p,1181b,2807s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,104p,1181b,2807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on ../build/main.pdf (16 pages, 569865 bytes).
+Output written on ../build/main.pdf (14 pages, 572718 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -48,6 +48,11 @@
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{15pt}
 \renewcommand{\chaptername}{Capítulo}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
 
 % ========================
 % METADATA
@@ -127,6 +132,9 @@ Pedro Luis Rodríguez López
 \tableofcontents
 \newpage
 
+\chapter*{I corte}
+\addcontentsline{toc}{chapter}{I corte}
+
 \input{sections/03_introduccion}
 \input{sections/04_justificacion}
 \input{sections/05_objetivo-general}
@@ -137,5 +145,16 @@ Pedro Luis Rodríguez López
 \input{sections/10_sintesis}
 \input{sections/11_mapa-de-empatia}
 \input{sections/12_planteamiento-del-problema}
+
+\chapter*{II Corte}
+\addcontentsline{toc}{chapter}{II Corte}
+\input{sections/13_diseno-solucion-tecnologica}
+\input{sections/14_diseno-interfaz}
+\input{sections/15_conclusiones-recomendaciones}
+\input{sections/16_anexos}
+
+\section*{Referencias}
+\addcontentsline{toc}{section}{Referencias}
+\printbibliography[heading=none]
 
 \end{document}
