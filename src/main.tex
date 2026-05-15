@@ -21,7 +21,7 @@
 \usepackage{tikz}
 \usepackage{pgfgantt}
 \usepackage{pdflscape}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,plainpages=false,pdfpagelabels]{hyperref}
 \usepackage{titlesec}
 \usepackage{fancyhdr}
 \usepackage{ragged2e}
@@ -89,12 +89,14 @@ Pedro Luis Rodríguez López
 
 \begin{document}
 \justifying
+\hypersetup{pageanchor=false}
 
 % ========================
 % COVER PAGE
 % ========================
 \begin{titlepage}
 \centering
+\singlespacing
 
 \includegraphics[width=2.5cm]{assets/img_001.png}\par
 \vspace{0.2cm}
@@ -128,9 +130,15 @@ Pedro Luis Rodríguez López
 {\ciudad\\ \anio\par}
 \end{titlepage}
 
+\doublespacing
+\pagenumbering{roman}
+
 
 \tableofcontents
 \newpage
+
+\hypersetup{pageanchor=true}
+\pagenumbering{arabic}
 
 \chapter*{I corte}
 \addcontentsline{toc}{chapter}{I corte}
@@ -154,7 +162,9 @@ Pedro Luis Rodríguez López
 \input{sections/16_anexos}
 \input{sections/17_corte2}
 
+\newpage
 \section*{Referencias}
+\phantomsection
 \addcontentsline{toc}{section}{Referencias}
 \printbibliography[heading=none]
 
